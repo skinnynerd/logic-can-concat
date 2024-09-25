@@ -1,0 +1,13 @@
+{
+  "name": "CAN Message Concatenator",
+  "apiVersion": "1.0.0",
+  "author": "Evan Blum",
+  "version": "0.0.1",
+  "description": "Smoosh together all the disparate parts of CAN messages",
+  "extensions": {
+    "CAN Message Concatenator": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.CanConcatenator"
+    }
+  }
+}
